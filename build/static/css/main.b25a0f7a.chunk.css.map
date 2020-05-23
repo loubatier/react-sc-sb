@@ -1,0 +1,1 @@
+{"version":3,"sources":["reset.css","style.css"],"names":[],"mappings":"AAAA,EACE,QAAS,CACT,SAEF,CCJA,WACE,yBAA4B,CAC5B,wDACF","file":"main.b25a0f7a.chunk.css","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  \n}\n","@font-face {\n  font-family: 'Roobert TRIAL';\n  src: url(./assets/fonts/RoobertTrial-Regular.otf);\n}\n\n"]}

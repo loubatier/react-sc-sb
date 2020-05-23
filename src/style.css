@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Roobert TRIAL';
+  src: url(./assets/fonts/RoobertTrial-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Roobert TRIAL Bold';
+  src: url(./assets/fonts/RoobertTrial-Bold.otf);
+}
+
+@font-face {
+  font-family: 'Roobert TRIAL Light';
+  src: url(./assets/fonts/RoobertTrial-Light.otf);
+}

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b25a0f7a.chunk.css",
+    "main.js": "/static/js/main.d7d3aa9c.chunk.js",
+    "main.js.map": "/static/js/main.d7d3aa9c.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.bec757ed.chunk.js": "/static/js/2.bec757ed.chunk.js",
+    "static/js/2.bec757ed.chunk.js.map": "/static/js/2.bec757ed.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4b3f28afb291d578db80772b4c7def66.js": "/precache-manifest.4b3f28afb291d578db80772b4c7def66.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b25a0f7a.chunk.css.map": "/static/css/main.b25a0f7a.chunk.css.map",
+    "static/media/style.css": "/static/media/RoobertTrial-Regular.0fd48cf3.otf"
+  }
+}
