@@ -16,7 +16,6 @@ const InputTextWrapper = styled.input`
   font-size: 12px;
   line-height: 140%;
   padding: 10px 12px 10px 12px;
-  word-wrap: break-word;
   ${InputTextWrapper}:focus {
     border: none;
     outline: none;

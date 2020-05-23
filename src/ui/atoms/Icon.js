@@ -6,7 +6,7 @@ import React from "react";
 
 const Icon = () => (
   <>
-    <svg position="absolute" className="tw-icon__svg" width="16px" height="16px" version="1.1" viewBox="0 0 20 20" x="0px" y="0px" fill="#FFFFFF">
+    <svg className="tw-icon__svg" width="16px" height="16px" version="1.1" viewBox="0 0 20 20" x="0px" y="0px" fill="#FFFFFF">
       <g>
         <path
             d="M7 11a1 1 0 100-2 1 1 0 000 2zM14 10a1 1 0 11-2 0 1 1 0 012 0zM10 14a2 2 0 002-2H8a2 2 0 002 2z"></path>
