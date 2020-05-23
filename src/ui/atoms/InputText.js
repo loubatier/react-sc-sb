@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
+import Icon from "./Icon";
 
 const InputTextWrapper = styled.input`
   box-sizing: border-box;
@@ -23,8 +24,15 @@ const InputTextWrapper = styled.input`
   }
 `;
 
-const InputText = ({ placeholder }) => {
-  return <InputTextWrapper type="text" placeholder={placeholder} />;
+const InputText = ({ placeholder, isIconVisible }) => {
+  return (
+      <>
+        <InputTextWrapper type="text" placeholder={placeholder} />
+        {isIconVisible && (
+            <Icon/>
+        )}
+      </>
+  )
 };
 
 InputText.propTypes = {

@@ -1,6 +1,6 @@
 import React from 'react';
 import InputText from '../ui/atoms/InputText';
-import { withKnobs, text } from "@storybook/addon-knobs";
+import { withKnobs, boolean, text } from "@storybook/addon-knobs";
 
 export default {
     title: 'InputText',
@@ -8,5 +8,9 @@ export default {
     decorators: [withKnobs]
 };
 
-export const Default = () => <InputText placeholder="Ecrire sur le chat de Siphano"/>;
+export const Input = () =>
+    <InputText
+        placeholder={text("Placeholder", "Ecrire sur le chat de Siphano")}
+        isIconVisible={boolean("isIconVisible", true)}
+    />
 
