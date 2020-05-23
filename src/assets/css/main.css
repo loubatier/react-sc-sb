@@ -1,0 +1,15 @@
+body {
+  background-color: #0e0e10;
+}
+
+@font-face {
+  font-family: 'Roobert';
+  font-weight: normal;
+  src: url('./../fonts/Roobert-Regular.woff2')
+}
+
+@font-face {
+  font-family: 'Roobert';
+  font-weight: bold;
+  src: url('./../fonts/Roobert-Bold.woff2')
+}
