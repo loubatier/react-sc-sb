@@ -1,11 +1,10 @@
 import React from "react";
-import Badge, { colors } from "./ui/atoms/Badge";
+import Avatar, { sizes } from "./ui/atoms/Avatar";
 
 export default function App() {
       return (
             <div className="App">
-                <Badge text="IRL" color={colors.purple}/>
-                <Badge text="IRL" color={colors.grey}/>
+                <Avatar size={sizes.medium}/>
             </div>
       );
 }
