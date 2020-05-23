@@ -15,8 +15,8 @@ const InputTextWrapper = styled.input`
   font-weight: normal;
   font-size: 12px;
   line-height: 140%;
-  padding: 10px 12px 10px 12px;
-  ${InputTextWrapper}:focus {
+  padding: ${(props) => props.isIconVisible ? "10px 30px 10px 12px" : "10px 12px 10px 12px"};
+  &:focus {
     border: none;
     outline: none;
     background: #000000;
@@ -27,7 +27,7 @@ const InputTextWrapper = styled.input`
 const InputText = ({ placeholder, isIconVisible }) => {
   return (
       <>
-        <InputTextWrapper type="text" placeholder={placeholder} />
+        <InputTextWrapper type="text" placeholder={placeholder} isIconVisible={isIconVisible}/>
         {isIconVisible && (
             <Icon/>
         )}

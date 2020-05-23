@@ -10,7 +10,7 @@ export default {
 
 export const Input = () =>
     <InputText
-        placeholder={text("Placeholder", "Ecrire sur le chat de Siphano")}
+        placeholder={text("Placeholder", "Envoyer un message")}
         isIconVisible={boolean("isIconVisible", true)}
     />
 
