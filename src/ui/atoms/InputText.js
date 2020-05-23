@@ -3,33 +3,32 @@ import styled from "styled-components";
 import PropTypes from "prop-types";
 
 const InputTextWrapper = styled.input`
+  box-sizing: border-box;
   border: none;
   width: 256px;
-  height: 40px;
-  left: 100px;
-  top: 824px;
-  background: #3A3A3D;
+  background: #3a3a3d;
   border-radius: 4px;
-  color: #C4C4C5;
+  color: #c4c4c5;
   font-family: Roobert TRIAL;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 140%;
-  padding-left: 12px;
+  padding: 10px 12px 10px 12px;
   ${InputTextWrapper}:focus {
     border: none;
+    outline: none;
     background: #000000;
-    box-shadow: 0px 0px 0px 3px #9247FF;
-    border-radius: 4px;
+    box-shadow: 0 0 0 2px #9146FF inset;
   }
 `;
 
 const InputText = ({ placeholder }) => {
-  return <InputTextWrapper
-      type="text"
-      placeholder={placeholder}
-  />
+  return <InputTextWrapper type="text" placeholder={placeholder} />;
+};
+
+InputText.propTypes = {
+  placeholder: PropTypes.string,
 };
 
 export default InputText;
