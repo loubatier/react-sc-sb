@@ -1,5 +1,5 @@
 import React from 'react';
-import InputText from '../ui/atoms/InputText';
+import InputText from '../ui/molecules/InputText';
 import { withKnobs, boolean, text } from "@storybook/addon-knobs";
 
 export default {

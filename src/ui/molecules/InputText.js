@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
-import Icon from "./Icon";
+import Icon from "../atoms/Icon";
 
 const InputTextWrapper = styled.input`
   box-sizing: border-box;
@@ -16,6 +16,7 @@ const InputTextWrapper = styled.input`
   font-size: 12px;
   line-height: 140%;
   padding: 10px 12px 10px 12px;
+  word-wrap: break-word;
   ${InputTextWrapper}:focus {
     border: none;
     outline: none;
