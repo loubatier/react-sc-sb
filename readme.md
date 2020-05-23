@@ -14,3 +14,6 @@ Alexandre Mary
  ```
  npm run storybook
  ```
+ 
+ ## Design
+![Input Documentation](documentation/Input.png)
