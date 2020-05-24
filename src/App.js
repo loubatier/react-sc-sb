@@ -1,11 +1,12 @@
 import React from "react";
-import Badge, { colors } from "./ui/atoms/Badge";
+import Chat from "./ui/molecules/Chat";
 
 export default function App() {
-      return (
-            <div className="App">
-                <Badge text="IRL" color={colors.purple}/>
-                <Badge text="IRL" color={colors.grey}/>
-            </div>
-      );
+  return (
+    <div className="App">
+      <Chat />
+      <Chat hour="12:30" />
+      <Chat hour="4:30" icon />
+    </div>
+  );
 }
